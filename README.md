@@ -17,28 +17,27 @@ The benefits of doing it this way is to avoid hard-coded values showing up where
 
 ## Tokens
 
-> **Stubs** include invariant markup aspects:
->
-> - Best rendered using neutrals with high contrast and low saturation.
->
->   > **Recommendations**: Overrides for `light`/`dark` themes.
->
-> - Usually applies longer body text.
->
-> - Sometimes applies to dominant identifiers — ie unambiguous subject(s).
+**Stubs** include invariant markup aspects:
 
-> **Marks** includes marked markup aspects:
->
-> - Best rendered using symbolic colors with high contrast and saturation.
->
-> - Usually applies to comments, errors, warnings, diffs… etc.
+- Best rendered using neutrals with high contrast and low saturation.
 
-> **Hints** includes styled markup aspects:
->
-> - Best rendered using the implied formatting and/or colors.
->
-> - Usually applies to bold/italics, headings… etc.
+  > **Recommendations**: Overrides for `light`/`dark` themes.
 
+- Usually applies longer body text.
+
+- Sometimes applies to dominant identifiers — ie unambiguous subject(s).
+
+**Marks** includes marked markup aspects:
+
+- Best rendered using symbolic colors with high contrast and saturation.
+
+- Usually applies to comments, errors, warnings, diffs… etc.
+
+**Hints** includes styled markup aspects:
+
+- Best rendered using the implied formatting and/or colors.
+
+- Usually applies to bold/italics, headings… etc.
 
 ## Icons
 

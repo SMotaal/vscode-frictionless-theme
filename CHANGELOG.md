@@ -15,11 +15,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Implemented a new blending color scheme model
 - Created `themes/light.json` and `themes/dark.json` — extending `base.json`
   - Added `light`/`dark` blend overrides for dominant token colors
-- Created `docs/` for static [markout](smotaal.io/markout) content
-  - Created `docs/.nojekyll` to disable github pages prerendering
-  - Created `docs/index.html` redirect page
-  - Created `docs/README.md` symbolic link
-  - Created `docs/CHANGELOG.md` symbolic link
+- Created static [markout](smotaal.io/markout) content
+  - Created `.nojekyll` to disable github pages prerendering
+  - Created `index.html` redirect page
 
 ### Changed
 
