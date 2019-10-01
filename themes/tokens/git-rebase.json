@@ -1,0 +1,19 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "SMotaal's Git Token Colors",
+	"tokenColors": [
+		// SEE: https://github.com/microsoft/vscode/blob/master/extensions/git/syntaxes/git-rebase.tmLanguage.json
+		{
+			"scope": "support.function.git-rebase",
+			"settings": {
+				"foreground": "#0450a6"
+			}
+		},
+		{
+			"scope": "constant.sha.git-rebase",
+			"settings": {
+				"foreground": "#ffd9c0"
+			}
+		}
+	]
+}

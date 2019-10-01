@@ -1,0 +1,29 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"include": "./tokens.marks.json",
+	"tokenColors": [
+		// SEE: README.md
+		{
+			"scope": ["markup.bold", "markup.heading", "meta.diff.header"],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": ["markup.inserted", "markup.deleted", "markup.inline.raw", "markup.changed"],
+			"settings": {}
+		}
+	]
+}

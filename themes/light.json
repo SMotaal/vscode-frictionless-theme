@@ -1,0 +1,68 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "SMotaal's Light Blend",
+	"type": "light",
+	"include": "./base.json",
+	"tokenColors": [
+		{
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.name.function",
+				"entity.name.type.namespace",
+				"entity.name.variable.local",
+				"entity.name.variable.parameter",
+				"entity.name.variable.property",
+				"keyword.operator",
+				"variable",
+				"punctuation.definition.tag",
+				// "storage.modifier.import.java", "storage.modifier.package.java",
+			],
+			"settings": {
+				"foreground": "#222222"
+			}
+		}
+	],
+	"colors": {
+		// SEE: https://code.visualstudio.com/api/references/theme-color
+		"scrollbar.shadow": "#00000011",
+		"widget.shadow": "#00000011",
+
+		"editor.background": "#ffffff",
+
+		"editor.foreground": "#222222",
+		"editorCursor.foreground": "#20292f",
+		"dropdown.foreground": "#20292f",
+		"button.foreground": "#20292f",
+		"editor.selectionForeground": "#ffffff",
+		"foreground": "#20292f",
+
+		"contrastBorder": "#ffffff33",
+		"input.background": "#ffffff33",
+		"checkbox.background": "#ffffff33",
+		"inputOption.activeBackground": "#ffffff33",
+		"settings.textInputBackground": "#ffffff33",
+		"settings.numberInputBackground": "#ffffff33",
+		"settings.dropdownBackground": "#ffffff33",
+		"settings.checkboxBackground": "#ffffff33",
+		"dropdown.background": "#ffffff33",
+		"dropdown.listBackground": "#f9fcffee",
+		"quickInput.background": "#f9fcffee",
+		"editorWidget.background": "#f9fcffee",
+		"list.dropBackground": "#f9fcffee",
+		// "list.activeSelectionForeground": "#ffffff",
+		// "list.inactiveSelectionForeground": "#ffffff",
+		// "list.hoverForeground": "#ffffff",
+		"activityBar.background": "#2c3e50",
+		"sideBarSectionHeader.background": "#f7f9fabb",
+		"sideBarSectionHeader.foreground": "#365271",
+		"tab.activeBackground": "#ffffff",
+		"tab.activeForeground": "#365271",
+		"sideBarTitle.foreground": "#66819e",
+		"sideBar.background": "#f7f9fa",
+		"panel.background": "#f7f9fa",
+		"panelTitle.activeBorder": "#3498db",
+		"panelTitle.activeForeground": "#7f8c8d"
+		// "menu.background":  "#252526",
+		// "menu.foreground":  "#CCCCCC",
+	}
+}

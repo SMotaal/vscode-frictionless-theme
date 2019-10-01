@@ -1,0 +1,67 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"include": "./tokens.primitives.json",
+	"tokenColors": [
+		// SEE: README.md
+		{
+			"name": "function",
+			"scope": "entity.name.function",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "namespace",
+			"scope": "entity.name.type.namespace",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "variable (local)",
+			"scope": "entity.name.variable.local",
+			"settings": {} /* reset */
+		},
+
+		{
+			"name": "parameter",
+			"scope": "entity.name.variable.parameter",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "property",
+			"scope": "entity.name.variable.property",
+			"settings": {} /* reset */
+		},		{
+			"scope": "keyword.operator",
+			"settings": {} /* reset */
+    },
+		{
+			"scope": "markup",
+			"settings": {} /* reset */
+    },
+		{
+			"scope": "variable",
+			"settings": {} /* reset */
+    },
+		{
+			"name": "json property brackets",
+			"scope": [
+				"punctuation.separator.dictionary.pair",
+				"punctuation.definition.dictionary",
+				"meta.structure.dictionary.value",
+				"meta.structure.dictionary",
+				"punctuation.definition.array",
+				"meta.structure.array",
+				"source"
+			],
+			"settings": {} /* reset */
+		},
+		{
+			"name": "brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "coloring of the Java import and package identifiers",
+			"scope": ["storage.modifier.import.java", "storage.modifier.package.java"],
+			"settings": {} /* reset */
+		}
+	]
+}

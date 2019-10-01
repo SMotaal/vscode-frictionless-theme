@@ -1,0 +1,61 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"include": "./tokens.meta.json",
+	"tokenColors": [
+		// SEE: README.md
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#999999" // "#888a85"
+			}
+		},
+		{
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#C65050"
+			}
+		},
+		{
+			"scope": ["markup.inserted"],
+			"settings": {
+				"foreground": "#73d316" // "#509606"
+			}
+		},
+		{
+			"scope": ["markup.deleted"],
+			"settings": {
+				"foreground": "#ef2929" // "#f02929"
+			}
+		},
+		{
+			"scope": ["markup.changed"],
+			"settings": {
+				"foreground": "#3366a6" // "#3366a6"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#3069cc"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cc9730"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#cc3030"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#cc00cc"
+			}
+		}
+	]
+}

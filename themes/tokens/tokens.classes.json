@@ -1,0 +1,226 @@
+﻿{
+	"$schema": "vscode://schemas/color-theme",
+	"tokenColors": [
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "function",
+			"scope": "entity.name.function",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "namespace",
+			"scope": "entity.name.type.namespace",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "variable (local)",
+			"scope": "entity.name.variable.local",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "parameter",
+			"scope": "entity.name.variable.parameter",
+			"settings": {} /* reset */
+		},
+		{
+			"name": "property",
+			"scope": "entity.name.variable.property",
+			"settings": {} /* reset */
+		},
+		{
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#009696"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {} /* reset */
+		},
+		{
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#009696"
+			}
+		},
+		{
+			"scope": ["markup.bold", "markup.italic"],
+			"settings": {
+				"foreground": "#33cc33"
+			}
+		},
+		{
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#75507b"
+			}
+		},
+		// {
+		// 	"scope": "markup.inline.raw",
+		// 	"settings": {
+		// 		"foreground": "#cc0000"
+		// 	}
+		// },
+		{
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#cc0000"
+			}
+		},
+		{
+			"scope": "meta.preprocessor",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.string",
+			"settings": {
+				"foreground": "#a30616"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.numeric",
+			"settings": {
+				"foreground": "#009696"
+			}
+		},
+		{
+			"scope": "meta.structure.dictionary.key.python",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#509606"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": [
+				"string.comment.buffered.block.jade",
+				"string.quoted.jade",
+				"string.interpolated.jade",
+				"string.unquoted.plain.in.yaml",
+				"string.unquoted.plain.out.yaml",
+				"string.unquoted.block.yaml",
+				"string.quoted.single.yaml",
+				"string.quoted.double.xml",
+				"string.quoted.single.xml",
+				"string.unquoted.ccata.xml",
+				"string.quoted.double.html",
+				"string.quoted.single.html",
+				"string.unquoted.html",
+				"string.quoted.single.handlebars",
+				"string.quoted.double.handlebars"
+			],
+			"settings": {
+				"foreground": "#d97000"
+			}
+		},
+		{
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#802040"
+			}
+		},
+		{
+			"name": "brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#cc0000"
+			}
+		},
+		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"name": "json property boolean",
+			"scope": [
+				"constant.language",
+				"meta.structure.dictionary.value",
+				"meta.structure.dictionary",
+				"meta.structure.array"
+			],
+			"settings": {
+				"foreground": "#009696"
+			}
+		},
+		{
+			"name": "json property brackets",
+			"scope": [
+				"punctuation.separator.dictionary.pair",
+				"punctuation.definition.dictionary",
+				"meta.structure.dictionary.value",
+				"meta.structure.dictionary",
+				"punctuation.definition.array",
+				"meta.structure.array"
+			],
+			"settings": {} /* reset */
+		},
+		{
+			"name": "brackets of XML/HTML tags",
+			"scope": "punctuation.definition.tag",
+			"settings": {} /* reset */
+		},
+		{
+			"scope": ["punctuation.section.embedded.begin.metatag.php", "punctuation.section.embedded.end.metatag.php"],
+			"settings": {
+				"foreground": "#cc0000"
+			}
+		},
+		{
+			"scope": "support.function.git-rebase",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "constant.sha.git-rebase",
+			"settings": {
+				"foreground": "#ffd9c0"
+			}
+		},
+		{
+			"name": "coloring of the Java import and package identifiers",
+			"scope": ["storage.modifier.import.java", "storage.modifier.package.java"],
+			"settings": {} /* reset */
+		},
+		{
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {}
+		}
+	]
+}

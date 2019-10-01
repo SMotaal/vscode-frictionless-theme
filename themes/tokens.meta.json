@@ -1,0 +1,41 @@
+﻿{
+	"$schema": "vscode://schemas/color-theme",
+	"tokenColors": [
+    	{
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#cc0000"
+			}
+		},
+		{
+			"scope": "meta.preprocessor",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.string",
+			"settings": {
+				"foreground": "#a30616"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.numeric",
+			"settings": {
+				"foreground": "#009696"
+			}
+		},
+		{
+			"scope": "meta.structure.dictionary.key.python",
+			"settings": {
+				"foreground": "#3366a6"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#509606"
+			}
+		}
+   ]
+}

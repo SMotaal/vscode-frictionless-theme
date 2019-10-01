@@ -1,28 +1,39 @@
 {
-  "name": "experimental-theme",
-  "displayName": "Experimental Theme",
-  "description": "SMotaal's Experimental Theme for Visual Studio Code",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.29.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "experimental-icon-theme",
-        "label": "Experimental Icon Theme",
-        "path": "./icons/experimental-icon-theme.json"
-      }
-    ],
-    "themes": [
-      {
-        "label": "Experimental Light",
-        "uiTheme": "vs",
-        "path": "./themes/experimental-light.json"
-      }
-    ]
-  }
+	"name": "@smotaal/vscode-frictionless-theme",
+	"displayName": "SMotaal's Frictionless Theme",
+	"description": "SMotaal's Frictionless Theme for Visual Studio Code",
+	"repository": "https://github.com/SMotaal/vscode-frictionless-theme.git",
+	"version": "0.0.1-alpha.2",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"dependencies": {
+		"vscode-material-icon-theme": "PKief/vscode-material-icon-theme"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "frictionless-material",
+				"label": "Frictionless (PKief Material) Icons",
+				"path": "./icons/pkief-material-icons.json"
+			}
+		],
+		"themes": [
+			{
+				"id": "frictionless-light",
+				"label": "Frictionless Light",
+				"uiTheme": "vs",
+				"path": "./themes/light.json"
+			},
+			{
+				"id": "frictionless-dark",
+				"label": "Frictionless Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark.json"
+			}
+		]
+	}
 }
