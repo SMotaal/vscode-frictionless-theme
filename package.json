@@ -2,10 +2,10 @@
 	"name": "frictionless-theme",
 	"displayName": "SMotaal's Frictionless Theme",
 	"description": "SMotaal's Frictionless Theme for Visual Studio Code",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SMotaal/vscode-frictionless-theme.git"
-  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SMotaal/vscode-frictionless-theme.git"
+	},
 	"publisher": "smotaal",
 	"version": "0.0.1",
 	"engines": {
@@ -36,5 +36,10 @@
 				"path": "./themes/dark.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "b8434430-c612-43f5-8ec7-6a8c3c69283a",
+		"publisherDisplayName": "SMotaal",
+		"publisherId": "b226bc3a-30a8-4239-b5ff-678330446191"
 	}
 }
