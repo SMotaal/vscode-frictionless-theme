@@ -7,7 +7,11 @@
 
 Frictionless light and dark themes that work for me personally.
 
-> **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md)for updates.
+<center>
+<img width=100% src="./assets/2019-10-02-frictionless-theme.png">
+</center>
+
+> **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md) for updates.
 
 ## Light/Dark
 

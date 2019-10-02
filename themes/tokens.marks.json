@@ -1,12 +1,12 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"include": "./tokens.meta.json",
+	"include": "./tokens.hints.json",
 	"tokenColors": [
 		// SEE: README.md
 		{
-			"scope": "comment",
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#999999" // "#888a85"
+				"foreground": "#999999"
 			}
 		},
 		{
@@ -16,21 +16,21 @@
 			}
 		},
 		{
-			"scope": ["markup.inserted"],
+			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#73d316" // "#509606"
+				"foreground": "#73d316"
 			}
 		},
 		{
-			"scope": ["markup.deleted"],
+			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#ef2929" // "#f02929"
+				"foreground": "#ef2929"
 			}
 		},
 		{
-			"scope": ["markup.changed"],
+			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#3366a6" // "#3366a6"
+				"foreground": "#3366a6"
 			}
 		},
 		{

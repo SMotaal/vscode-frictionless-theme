@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"include": "./tokens.marks.json",
+	"include": "./tokens.meta.json",
 	"tokenColors": [
 		// SEE: README.md
 		{
@@ -24,6 +24,25 @@
 		{
 			"scope": ["markup.inserted", "markup.deleted", "markup.inline.raw", "markup.changed"],
 			"settings": {}
+		},
+		{
+			"scope": [
+				"entity.name.tag"
+				// "punctuation.definition.array.begin",
+				// "punctuation.definition.array.end",
+				// "punctuation.definition.dictionary.begin",
+				// "punctuation.definition.dictionary.end",
+				// "punctuation.definition.arguments.begin.bracket",
+				// "punctuation.definition.arguments.end.bracket",
+				// "punctuation.definition.function.body.begin.bracket",
+				// "punctuation.definition.function.body.end.bracket",
+				// "meta.brace",
+				// "punctuation.section"
+			],
+			"settings": {
+				// "foreground": "#999999",
+				// "fontStyle": "underline"
+			}
 		}
 	]
 }

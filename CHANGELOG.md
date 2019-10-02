@@ -6,6 +6,14 @@ All notable changes to the "experimental-theme" extension will be documented in 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
  -->
 
+## [Unreleased `0.0.1-alpha.2b`] - 2019-10-02
+
+### Changed
+
+- Harmonized `light`/`dark` blending for all UI aspects
+- Enhanced `light`/`dark` background and contrast
+- Improved cascading of token colors — now closer to `markup-light`
+
 ## [Unreleased `0.0.1-alpha.2`] - 2019-09-30
 
 ### Added
