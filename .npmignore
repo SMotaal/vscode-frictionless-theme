@@ -1,0 +1,15 @@
+﻿/index.html
+/specs/
+/docs/
+/meta/
+/package*/
+/themes/*/
+.vscode/**
+.vscode-test/**
+.gitignore
+/.*
+/*.tgz
+**/trash/
+**/[[]trash[]]/
+**/.DS_Store
+*.psd

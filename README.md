@@ -7,9 +7,7 @@
 
 Frictionless light and dark themes that work for me personally.
 
-<center>
-<img width=100% src="./assets/2019-10-02-frictionless-theme.png">
-</center>
+![frictionless-theme](assets/frictionless-theme.png)
 
 > **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md) for updates.
 

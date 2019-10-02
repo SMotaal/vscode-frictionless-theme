@@ -1,4 +1,12 @@
+meta/**
+themes/tokens/**
 .vscode/**
 .vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+.*
+index.html
+*.tgz
+**/trash/
+**/[[]trash[]]/
+**/.DS_Store
+*.psd
+assets/sources/**

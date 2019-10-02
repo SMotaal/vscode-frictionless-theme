@@ -6,6 +6,10 @@ All notable changes to the "experimental-theme" extension will be documented in 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
  -->
 
+## [`0.0.1`] — 2019-10-02
+
+- Initial release
+
 ## [Unreleased `0.0.1-alpha.2b`] - 2019-10-02
 
 ### Changed
