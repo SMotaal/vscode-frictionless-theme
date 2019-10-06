@@ -7,14 +7,14 @@
 		{
 			"scope": ["entity", "markup", "variable", "storage", "support", "meta.expression"],
 			"settings": {
-				"foreground": "#dddddd"
+				"foreground": "#dddd"
 			}
 		}
 	],
 	"colors": {
 		// SEE: https://code.visualstudio.com/api/references/theme-color
-		"scrollbar.shadow": "#00000011",
-		"widget.shadow": "#00000022",
+		"scrollbar.shadow": "#0001",
+		"widget.shadow": "#0002",
 		// "editor.background": "#1c2326",
 		"editor.background": "#232c30",
 		"sideBar.background": "#232c30",
@@ -22,12 +22,12 @@
 		"tab.activeBackground": "#232c30",
 		"editorWidget.background": "#232c30",
 		"activityBar.background": "#232c30",
-		"editor.foreground": "#dddddd",
-		"editorCursor.foreground": "#aabbcc",
-		"dropdown.foreground": "#aabbcc",
-		"button.foreground": "#aabbcc",
+		"editor.foreground": "#ddd",
+		"editorCursor.foreground": "#abc",
+		"dropdown.foreground": "#abc",
+		"button.foreground": "#abc",
 		"editor.selectionForeground": "#20292f",
-		"foreground": "#aabbcc",
+		"foreground": "#abc",
 		"input.background": "#1c2326f6",
 		"checkbox.background": "#1c2326f6",
 		"settings.textInputBackground": "#1c2326f6",
@@ -38,6 +38,6 @@
 		"dropdown.listBackground": "#1c2326f6",
 		"quickInput.background": "#1c2326f6",
 		// "editorWidget.background": "#1c2326f6",
-		// "contrastBorder": "#00000033",
+		// "contrastBorder": "#0003",
 	}
 }

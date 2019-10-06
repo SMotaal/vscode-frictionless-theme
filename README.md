@@ -8,7 +8,7 @@ Frictionless light and dark themes that work for me personally.
 
 ![frictionless-theme](assets/frictionless-theme.png)
 
-> **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md) for updates.
+> **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md) for updates — you can also manually download and install the latest [pre-release version](./frictionless-theme-0.1.1-pre.1.vsix) directly.
 
 ## Light/Dark
 

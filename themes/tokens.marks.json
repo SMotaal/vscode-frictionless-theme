@@ -6,55 +6,55 @@
 		{
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#999e"
 			}
 		},
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#C65050"
+				"foreground": "#d55"
 			}
 		},
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#73d316"
+				"foreground": "#7c1"
 			}
 		},
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#ef2929"
+				"foreground": "#e22"
 			}
 		},
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#3366a6"
+				"foreground": "#36a"
 			}
 		},
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#3069cc"
+				"foreground": "#36f"
 			}
 		},
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#cc9730"
+				"foreground": "#c93"
 			}
 		},
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#cc3030"
+				"foreground": "#c33"
 			}
 		},
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#cc00cc"
+				"foreground": "#c0c"
 			}
 		}
 	]

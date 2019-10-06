@@ -4,13 +4,13 @@
     	{
 			"scope": "meta.selector",
 			"settings": {
-				"foreground": "#cc0000"
+				"foreground": "#c00"
 			}
 		},
 		{
 			"scope": "meta.preprocessor",
 			"settings": {
-				"foreground": "#3366a6"
+				"foreground": "#36a"
 			}
 		},
 		{
@@ -22,13 +22,13 @@
 		{
 			"scope": "meta.preprocessor.numeric",
 			"settings": {
-				"foreground": "#009696"
+				"foreground": "#099"
 			}
 		},
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#3366a6"
+				"foreground": "#36a"
 			}
 		},
 		{

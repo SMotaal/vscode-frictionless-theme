@@ -6,6 +6,11 @@ All notable changes to the "experimental-theme" extension will be documented in 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
  -->
 
+## [Unreleased `0.1.1-pre.1`] — 2019-10-04
+
+- Improve rules for token colors — `jsdoc`, and `json` and `html` mostly
+- Shorten color definitions — ie `#xxx` and `#xxxx`
+
 ## [`0.1.0`] — 2019-10-02
 
 - Initial release
