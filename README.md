@@ -8,7 +8,7 @@ Frictionless light and dark themes that work for me personally.
 
 ![frictionless-theme](assets/frictionless-theme.png)
 
-> **Note**: This effort is a constant work-in-progress, it evolves with time, and is never really finished — see the [CHANGELOG](./CHANGELOG.md) for updates — you can also manually download and install the latest [pre-release version](./frictionless-theme-0.1.1-pre.1.vsix) directly.
+> **Note**: This effort is a work-in-progress. See the [CHANGELOG](./CHANGELOG.md) for updates.
 
 ## Light/Dark
 
@@ -19,3 +19,5 @@ The benefits of doing it this way is to avoid hard-coded values showing up where
 ## Icons
 
 This theme borrows from [PKief/vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme) and continues to find ways to simplify things while retaining the absolutely pleasing aspects of this work.
+
+<!-- TODO: https://github.com/PKief/vscode-material-icon-theme/issues/559 -->

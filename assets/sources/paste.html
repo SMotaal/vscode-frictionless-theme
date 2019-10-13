@@ -1,0 +1,28 @@
+﻿<input readonly placeholder="paste here"></input>
+<script>
+	(() => {
+		const input = document.querySelector('input');
+		input.addEventListener('paste', async event => {
+			event.preventDefault();
+			// const items = event.clipboardData.items;
+			// console.log(event, ...await Promise.all([...items].map((item, index) => new Promise(resolve => item.getAsString(string => {
+			// 	resolve({ type: item.type, string, item });
+			// })))));
+			const data = event.clipboardData.getData('text/html');
+			console.log(data);
+		});
+	})()
+</script>
+<script>
+		(async () => {
+			const permission = await navigator.permissions.request({ name: "clipboard-read" });
+			console.log({ navigator, permission });
+			permission.state === 'prompt' && await (new Promise(resolve => permission.onchange(resolve)));
+			if (permission.state === 'granted') {
+				const promise = navigator.clipboard.read();
+				console.log({ promise });
+				// 		const data = await promise;
+				// 		console.log({promise, data});
+			}
+		})
+</script>

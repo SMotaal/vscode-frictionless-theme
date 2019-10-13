@@ -7,7 +7,7 @@
 		"url": "https://github.com/SMotaal/vscode-frictionless-theme.git"
 	},
 	"publisher": "smotaal",
-	"version": "0.1.1-pre.1",
+	"version": "0.1.1",
 	"engines": {
 		"vscode": "^1.38.0"
 	},

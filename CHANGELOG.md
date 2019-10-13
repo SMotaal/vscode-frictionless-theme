@@ -6,7 +6,12 @@ All notable changes to the "experimental-theme" extension will be documented in 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
  -->
 
-## [Unreleased `0.1.1-pre.1`] — 2019-10-04
+<!--
+ TODO: Best approach to incorporate into a theme?
+ SEE: https://github.com/PKief/vscode-material-icon-theme/issues/559
+-->
+
+## [`0.1.1`] — 2019-10-12
 
 - Improve rules for token colors — `jsdoc`, and `json` and `html` mostly
 - Shorten color definitions — ie `#xxx` and `#xxxx`
