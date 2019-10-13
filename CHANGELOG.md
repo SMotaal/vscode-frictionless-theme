@@ -11,6 +11,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
  SEE: https://github.com/PKief/vscode-material-icon-theme/issues/559
 -->
 
+## [`0.1.2`] — 2019-10-13
+
+- Replace `frictionless-theme.png` link
+
 ## [`0.1.1`] — 2019-10-12
 
 - Improve rules for token colors — `jsdoc`, and `json` and `html` mostly
