@@ -13,6 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [`0.1.2`] — 2019-10-13
 
+- Use @smotaal.io/prettier.config
 - Replace `frictionless-theme.png` link
 
 ## [`0.1.1`] — 2019-10-12

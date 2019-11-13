@@ -37,6 +37,9 @@
 			}
 		]
 	},
+	"devDependencies": {
+		"@smotaal.io/prettier.config": "*"
+	},
 	"__metadata": {
 		"id": "b8434430-c612-43f5-8ec7-6a8c3c69283a",
 		"publisherDisplayName": "SMotaal",
