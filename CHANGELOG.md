@@ -11,25 +11,25 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
  SEE: https://github.com/PKief/vscode-material-icon-theme/issues/559
 -->
 
-## [`0.1.2`] — 2019-10-13
+## [0.1.2][] — 2019-10-13
 
 - Use @smotaal.io/prettier.config
 - Replace `frictionless-theme.png` link
 
-## [`0.1.1`] — 2019-10-12
+## [0.1.1][] — 2019-10-12
 
 - Improve rules for token colors — `jsdoc`, and `json` and `html` mostly
 - Shorten color definitions — ie `#xxx` and `#xxxx`
 
-## [`0.1.0`] — 2019-10-02
+## [0.1.0][] — 2019-10-02
 
 - Initial release
 
-## [`0.0.1`] — 2019-10-02
+## [0.0.1][] — 2019-10-02
 
 - Prerelease release
 
-## [Unreleased `0.0.1-alpha.2b`] - 2019-10-02
+## [Unreleased 0.0.1-alpha.2b][] - 2019-10-02
 
 ### Changed
 
@@ -37,7 +37,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Enhanced `light`/`dark` background and contrast
 - Improved cascading of token colors — now closer to `markup-light`
 
-## [Unreleased `0.0.1-alpha.2`] - 2019-09-30
+## [Unreleased 0.0.1-alpha.2]] - 2019-09-30
 
 ### Added
 
@@ -76,3 +76,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added `experimental-light.json` (adopted from `markup-light`)
 - Added icon theme from [PKief/vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)
+
+[0.1.2]: ./frictionless-theme-0.1.2.vsix
+[0.1.1]: ./frictionless-theme-0.1.1.vsix
+[0.0.1]: ./frictionless-theme-0.0.1.vsix
