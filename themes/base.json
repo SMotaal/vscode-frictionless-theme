@@ -19,10 +19,10 @@
 		"editor.wordHighlightBackground": "#3a88ec66",
 		"editor.wordHighlightStrongBackground": "#3a88eccc",
 
-		"editor.findMatchBackground": "#fffc3833",
 		"editor.findRangeHighlightBackground": "#fffc3899",
 		"editor.findRangeHighlightBorder": "#fffc38",
-		"editor.findMatchBorder": "#fffc3866",
+		"editor.findMatchBorder": "#fffc3833",
+		"editor.findMatchBackground": "#fffc3811",
 		"editor.findMatchHighlightBorder": "#fffc38cc",
 		"editor.findMatchHighlightBackground": "#fffc3866",
 
