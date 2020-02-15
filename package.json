@@ -1,52 +1,53 @@
 {
-	"name": "frictionless-theme",
-	"displayName": "SMotaal's Frictionless Theme",
-	"description": "SMotaal's Frictionless Theme for Visual Studio Code",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SMotaal/vscode-frictionless-theme.git"
-	},
-	"publisher": "smotaal",
-	"license": "MIT",
-	"version": "0.1.2-alpha.1",
-	"engines": {
-		"vscode": "^1.38.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"scripts": {
-		"package": "vsce package"
-	},
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "frictionless-material",
-				"label": "Frictionless (PKief Material) Icons",
-				"path": "./icons/pkief-material-icons.json"
-			}
-		],
-		"themes": [
-			{
-				"id": "frictionless-light",
-				"label": "Frictionless Light",
-				"uiTheme": "vs",
-				"path": "./themes/light.json"
-			},
-			{
-				"id": "frictionless-dark",
-				"label": "Frictionless Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"@smotaal.io/tools": "*"
-	},
-	"__metadata": {
-		"id": "b8434430-c612-43f5-8ec7-6a8c3c69283a",
-		"publisherDisplayName": "SMotaal",
-		"publisherId": "b226bc3a-30a8-4239-b5ff-678330446191"
-	}
+  "name": "frictionless-theme",
+  "displayName": "SMotaal's Frictionless Theme",
+  "description": "SMotaal's Frictionless Theme for Visual Studio Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SMotaal/vscode-frictionless-theme.git"
+  },
+  "publisher": "smotaal",
+  "license": "MIT",
+  "version": "0.1.2",
+  "engines": {
+    "vscode": "^1.4.x"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "frictionless-material",
+        "label": "Frictionless (PKief Material) Icons",
+        "path": "./icons/pkief-material-icons.json"
+      }
+    ],
+    "themes": [
+      {
+        "id": "frictionless-light",
+        "label": "Frictionless Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      },
+      {
+        "id": "frictionless-dark",
+        "label": "Frictionless Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@smotaal.io/tools": "*",
+    "vsce": "*"
+  },
+  "__metadata": {
+    "id": "b8434430-c612-43f5-8ec7-6a8c3c69283a",
+    "publisherDisplayName": "SMotaal",
+    "publisherId": "b226bc3a-30a8-4239-b5ff-678330446191"
+  }
 }
