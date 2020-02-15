@@ -6,7 +6,7 @@
 
 Frictionless light and dark themes that work for me personally.
 
-![frictionless-theme](assets/frictionless-theme.png)
+![frictionless-theme](./assets/frictionless-theme.png)
 
 > **Note**: This effort is a work-in-progress. See the [CHANGELOG](./CHANGELOG.md) for updates.
 
